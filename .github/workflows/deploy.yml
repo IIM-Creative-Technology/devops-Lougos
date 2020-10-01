@@ -14,7 +14,7 @@ jobs:
       - name: Init node.js
         uses: actions/setup-node@master
       - name: Installing project dependencies
-        uses: npm install
+        run: npm install
       - name: Building the project
         run: npm run build
       - name: Vue linter
