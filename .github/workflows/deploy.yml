@@ -11,6 +11,12 @@ jobs:
     steps:
       - name: Init project
         uses: actions/checkout@v2
+      - name: Init node.js
+        uses: actions/setup-node@master
+      - name: Installing project dependencies
+        uses: npm install
+      - name: Building the project
+        run: npm run build
       - name: Vue linter
         uses: wearerequired/lint-action@v1
       - name: Deploy to Heroku
