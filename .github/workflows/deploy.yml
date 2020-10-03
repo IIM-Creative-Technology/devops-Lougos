@@ -17,6 +17,8 @@ jobs:
         run: npm install
       - name: Building the project
         run: npm run build
+      - name: Install Sass
+        run: npm install -D sass-loader node-sass
       - name: Vue linter
         uses: wearerequired/lint-action@v1
       - name: Deploy to Heroku
