@@ -15,19 +15,14 @@ jobs:
         uses: actions/setup-node@master
       - name: Installing project dependencies
         run: npm install
-      - name: Building the project
-        run: npm run build
-<<<<<<< HEAD
       - name: Install Sass
         run: npm install -D sass-loader node-sass
-      - name: Vue linter
-        uses: wearerequired/lint-action@v1
-=======
+      - name: Building the project
+        run: npm run build
       - name: Run Eslint
         uses: stefanoeb/eslint-action@1.0.2
         with:
           files: src/
->>>>>>> 03461ef99cab03030bfa85340be815fd3685e46b
       - name: Deploy to Heroku
         uses: akhileshns/heroku-deploy@v3.5.6 # This is the action
         with:
