@@ -84,7 +84,7 @@ export default {
             .choice{
                 display: flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: space-between;
                 width: 30vw;
                 a{
                     font: 20px 'Bebas';
