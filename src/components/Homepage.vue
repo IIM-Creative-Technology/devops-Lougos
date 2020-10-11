@@ -45,7 +45,7 @@ export default {
             width: 10%;
             align-items: center;
             justify-content: center;
-            height: 100%;
+            height: 88vh;
             a{
                 img {
                     width: 40px;
