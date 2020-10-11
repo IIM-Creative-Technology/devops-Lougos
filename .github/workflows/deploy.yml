@@ -19,6 +19,8 @@ jobs:
         run: npm install -D sass-loader node-sass
       - name: Install Bootstrap
         run: npm install vue bootstrap-vue bootstrap
+      - name: Install Vue Router
+        run: npm install --save vue-router
       - name: Building the project
         run: npm run build
       - name: Run Eslint
