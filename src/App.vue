@@ -2,7 +2,7 @@
   <div id="app">
     <my-header></my-header>
     <my-homepage></my-homepage>
-
+    <router-view></router-view>
   </div>
 </template>
 
