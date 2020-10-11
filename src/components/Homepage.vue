@@ -78,7 +78,7 @@ export default {
                 width: 100%;
                 height: 50%;
                 h1 {
-                    font: 40px 'Bebas';
+                    font: 40px;
                 }
             }
             .choice{
@@ -87,7 +87,7 @@ export default {
                 justify-content: space-between;
                 width: 30vw;
                 a{
-                    font: 20px 'Bebas';
+                    font: 20px;
                     letter-spacing: 2px;
                     color: black;
                     text-decoration: none;

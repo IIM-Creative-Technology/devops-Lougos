@@ -112,13 +112,13 @@ export default {
                 font: 15px;
                 h4 {
                     margin-right: 20px;
-                    font: 20px 'bebas';
+                    font: 20px;
                 }
             }
             h3 {
                 margin-top: 2%;
                 margin-bottom: 1%;
-                font: 30px 'bebas';
+                font: 30px;
                 text-decoration: underline;   
                 margin-right: 52%;
             }

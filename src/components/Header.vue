@@ -41,7 +41,7 @@ nav {
         justify-content: space-evenly;
         width: 25%;
         a {
-            font: 20px 'Bebas';
+            font: 20px;
             letter-spacing: 2px;
             color: black;
             text-decoration: none;
@@ -69,7 +69,7 @@ nav {
         p {
             text-decoration: none;
             color: black;
-            font: 30px 'Bebas';
+            font: 30px;
             letter-spacing: 2px;
             font-weight: bold;
             margin-bottom: 10px;
@@ -82,7 +82,7 @@ nav {
             text-decoration: none;
             color: black;
             margin-left: 8px;
-            font: 20px 'Bebas';
+            font: 20px ;
             letter-spacing: 2px;
         }
     }

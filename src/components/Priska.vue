@@ -87,23 +87,23 @@ export default {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font: 30px 'bebas';
+                    font: 30px;
                     text-decoration: underline;
                     margin-bottom: 3%;
                 }
                 h3{
-                    font: 25px 'bebas';
+                    font: 25px;
                     text-decoration: underline;
                     margin-bottom: 1%;
                     margin-top: 1%;
                     margin-left: 5%;
                 }
                 small{
-                    font: 18px 'Comfortaa';
+                    font: 18px;
                     margin-left: 8%;    
                 }
                 h4{
-                    font: 20px 'Comfortaa';
+                    font: 20px;
                     margin-left: 8%;
                     text-decoration: underline;
                 }
