@@ -82,6 +82,9 @@ export default {
                 }
             }
             .choice{
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 a{
                     font: 20px 'Bebas';
                     letter-spacing: 2px;
