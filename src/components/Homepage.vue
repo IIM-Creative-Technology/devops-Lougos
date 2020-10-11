@@ -2,9 +2,9 @@
     <div class="main">
         <div class="front-row"></div>
         <div class="reseaux">
-            <a target="_blank" href="https://twitter.com/Lilian_Gtr"><img class="twitter" src="../img/twitter.png" alt="Twitter"></a>
-            <a target="_blank" href="https://github.com/Lougos"><img class="github" src="../img/github.png" alt="GitHub"></a>
-            <a target="_blank" href="https://www.linkedin.com/in/lilian-gautier-3b637a159/"><img class="linkedin" src="../img/linkedin.png" alt="LinkedIn"></a>
+            <a target="_blank" href="https://twitter.com/Lilian_Gtr"><img class="twitter" src="@/img/twitter.png" alt="Twitter"></a>
+            <a target="_blank" href="https://github.com/Lougos"><img class="github" src="@/img/github.png" alt="GitHub"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/lilian-gautier-3b637a159/"><img class="linkedin" src="@/img/linkedin.png" alt="LinkedIn"></a>
         </div>
         <div class="menu">
             <div class="title">
