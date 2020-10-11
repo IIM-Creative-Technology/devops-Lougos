@@ -12,10 +12,10 @@
             </div>
             <div class="choice">
                 <div class="projet">
-                    <a href="projet.html">Mes Projets</a>
+                    <router-link :to="{name: 'Projet'}"><a>Mes Projets</a></router-link>
                 </div>
                 <div class="contact">
-                    <a href="propos.html">A Propos</a>
+                    <router-link :to="{name: 'Propos'}"><a>A propos</a></router-link>
                 </div>
             </div>
         </div>
