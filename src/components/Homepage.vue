@@ -69,7 +69,7 @@ export default {
             flex-direction: column;
             align-items: center;
             width: 80%;
-            height: 88%;
+            height: 88vh;
             .title {
                 display: flex;
                 flex-direction: row;
@@ -85,7 +85,7 @@ export default {
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                width: 30%;
+                width: 30vw;
                 a{
                     font: 20px 'Bebas';
                     letter-spacing: 2px;
