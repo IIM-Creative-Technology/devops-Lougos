@@ -3,6 +3,12 @@
 PortFolio
 J'ai voulu faire mon portofolio en Vue et Sass
 
+
+Je n'ai pas pu voir si le projet se mettait bien en place car j'ai eu un problème avec le vue Router et je pense avoir faire de push et Heroku ma bloqu"é je ne peux donc pas accéder à mon site et voir les changement.
+
+Etant nouveaux avec Vue.js ça m'a un peu mis dans le mal et j'en suis désolé.
+
+
 ------------------------------------
 
 name: Init project
