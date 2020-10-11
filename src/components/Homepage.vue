@@ -85,6 +85,7 @@ export default {
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                width: 30%;
                 a{
                     font: 20px 'Bebas';
                     letter-spacing: 2px;
