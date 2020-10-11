@@ -8,6 +8,7 @@
 
 <script>
 import Header from './components/Header.vue'
+import main from './components/main.vue'
 
 export default {
   name: 'App',
