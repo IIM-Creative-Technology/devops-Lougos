@@ -39,6 +39,9 @@ nav {
     width: 100%;
     height: 12%;
     text-decoration: none;
+    position: relative;
+    top: 0;
+    left: 0;
 
     .start-nav {
         display: flex;
