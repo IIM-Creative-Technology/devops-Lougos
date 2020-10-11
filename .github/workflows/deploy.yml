@@ -15,9 +15,10 @@ jobs:
         uses: actions/setup-node@master
       - name: Installing project dependencies
         run: npm install
-        run: npm install --save vue-router
       - name: Install Sass
         run: npm install -D sass-loader node-sass
+      - name: Install Vue Router
+        run: npm install --save vue-router
       - name: Install Bootstrap
         run: npm install vue bootstrap-vue bootstrap
       - name: Building the project
