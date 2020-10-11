@@ -2,23 +2,16 @@
 
     <nav>
         <div class="start-nav">
-            <a href="projet.html">
-                Projets
-            </a>
-            <a href="propos.html">
-                A propos
-            </a>
+            <router-link :to="{name: 'Projet'}"><a>Projets</a><router-link>
+            <router-link :to="{name: 'Propos'}"><a>A propos</a><router-link>
         </div>
         <div class="mid-nav">
-            <a href="index.html">
+            <router-link :to="{name: 'Homepage'}"><a>
                 <div>
                     <p>Lilian Gautier</p>
                     <small>[Web Developper]</small>
                 </div>
-            </a>
-        </div>
-        <div class="end-nav">
-            <span id='horloge'></span>
+            </a></router-link>
         </div>
     </nav>
 
@@ -92,15 +85,6 @@ nav {
             font: 20px 'Bebas';
             letter-spacing: 2px;
         }
-    }
-    .end-nav {
-        cursor: default;
-        font: 20px 'Bebas';
-        letter-spacing: 2px;
-        font-weight: bold;
-        display: flex;
-        justify-content: center;
-        width: 25%;
     }
 }
 </style>

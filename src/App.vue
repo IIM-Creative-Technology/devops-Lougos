@@ -20,5 +20,9 @@ export default {
 </script>
 
 <style lang="scss">
-
+@font-face {
+    src: url(font/Comfortaa.ttf);
+    font-family:'Comfortaa';
+    font-style: normal;
+}
 </style>
